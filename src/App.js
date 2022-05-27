@@ -1,8 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { useEffect, useState } from "react";
 import { getVideoAds } from "./apis/contentful";
-import ReactPlayer from "react-player";
 import { VideoJumbotron } from "./components/VideoJumbotron";
 
 function App() {
